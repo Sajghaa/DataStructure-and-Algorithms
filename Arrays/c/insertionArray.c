@@ -7,7 +7,7 @@ int main(){
     int x = 25;
     int pos = 2;
 
-    for (int i = n-1; i >=p; i--){
+    for (int i = n-1; i >=pos; i--){
         A[i+1] = A[i];
     }
 
