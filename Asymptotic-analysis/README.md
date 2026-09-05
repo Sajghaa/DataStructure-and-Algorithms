@@ -24,7 +24,7 @@ We don't care about milliseconds. A faster CPU will always beat a slower one. We
 | **O(n log n)** | Linearithmic | 33 | 664 | Efficient sorting (Merge Sort, Heap Sort). |
 | **O(n²)** | Quadratic | 100 | 10,000 | Nested loops, bubble sort. |
 | **O(2ⁿ)** | Exponential | 1,024 | 1.27e30 | Recursive branching (naive Fibonacci). |
-| **O(n!) | Factorial | 3.6M | 9.3e157 | Generating all permutations. |
+| **O(n!)** | Factorial | 3.6M | 9.3e157 | Generating all permutations. |
 
 ---
 
