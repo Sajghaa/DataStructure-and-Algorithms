@@ -48,7 +48,7 @@ We don't care about milliseconds. A faster CPU will always beat a slower one. We
 | **O(n log n)** | Nested loops (one linear, one halving). Sorting. | `for (i=0; i<n; i++) { for (j=n; j>1; j/=2) }` |
 | **O(n²)** | Two nested loops. | `for (i=0; i<n; i++) { for (j=0; j<n; j++) }` |
 | **O(2ⁿ)** | Recursion that branches twice. | `return fib(n-1) + fib(n-2);` |
-| **O(n!) | Recursion that branches n times. | Generating all permutations. |
+| **O(n!)** | Recursion that branches n times. | Generating all permutations. |
 
 ---
 
